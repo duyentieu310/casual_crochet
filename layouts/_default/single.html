@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <section class="detail-section">
+    <div class="container">
+      <article class="bag-detail">
+        <header class="detail-header">
+          <h1 class="detail-title">{{ .Title }}</h1>
+          {{ if .Params.description }}
+            <p class="detail-subtitle">{{ .Params.description }}</p>
+          {{ end }}
+        </header>
+
+        <div class="detail-content">
+          {{ .Content }}
+
+          {{ if .Params.tags }}
+            <div class="detail-tags">
+              {{ range .Params.tags }}
+                <span class="tag">#{{ . }}</span>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </article>
+    </div>
+  </section>
+{{ end }}

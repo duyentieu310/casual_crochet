@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <div class="container">
+    <div class="content">
+      {{ if .Title }}
+        <h1>{{ .Title }}</h1>
+      {{ end }}
+      {{ with .Description }}
+        <p class="lead">{{ . }}</p>
+      {{ end }}
+
+      <div class="posts-list">
+        {{ if .Paginator }}
+          {{ range .Paginator.Pages }}
+            {{ .Render "summary" }}
+          {{ end }}
+        {{ else }}
+          {{ range .Pages }}
+            {{ .Render "summary" }}
+          {{ end }}
+        {{ end }}
+      </div>
+
+      {{ if .Paginator }}
+        {{ template "_internal/pagination.html" . }}
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

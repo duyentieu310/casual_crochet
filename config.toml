@@ -1,0 +1,28 @@
+baseURL = 'https://example.com/'
+languageCode = 'en-us'
+title = 'My Crocheted Bags'
+theme = ''
+
+[params]
+  description = "Handmade crocheted bags - minimal, tactile, and made for everyday moments"
+  author = "Your Name"
+  # Fillmore-style accent color (customize to match your yarn palette)
+  accent_color = "#8B4513"  # Saddle Brown - change as desired
+  # Enable smooth transitions
+  enable_animations = true
+
+# Menu configuration (Fillmore-style minimal nav)
+[menu]
+  [[menu.main]]
+    identifier = "work"
+    name = "Bags"
+    url = "/bags/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

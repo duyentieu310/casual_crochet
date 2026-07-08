@@ -1,0 +1,41 @@
+{{ define "main" }}
+  <section class="work-section">
+    <div class="container">
+      <div class="section-header">
+        <h1 class="section-title">{{ .Title }}</h1>
+        <p class="section-subtitle">{{ .Description }}</p>
+      </div>
+      <div class="work-grid">
+        {{ range .Pages }}
+          <a href="{{ .Permalink }}" class="work-card">
+            <div class="work-card-image">
+              {{ $thumb := .Params.thumb }}
+              {{ if not $thumb }}
+                {{ $images := .Params.images }}
+                {{ if $images }}
+                  {{ $thumb := index $images 0 }}
+                {{ end }}
+              {{ end }}
+              {{ if $thumb }}
+                {{ $img := resources.Get (printf "images/%s" $thumb) }}
+                {{ if $img }}
+                  {{ $img = $img.Fill "800x600 Center" }}
+                  <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}">
+                {{ end }}
+              {{ else }}
+                <!-- Placeholder image when no images are available -->
+                <div style="background-color: #f0f0f0; display: flex; align-items: center; justify-content: center; color: #999999; font-size: 0.9rem;">
+                  No Image
+                </div>
+              {{ end }}
+            </div>
+            <div class="work-card-content">
+              <h3 class="work-card-title">{{ .Title }}</h3>
+              <p class="work-card-excerpt">{{ .Params.description | truncate 100 }}</p>
+            </div>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

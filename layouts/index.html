@@ -1,0 +1,57 @@
+{{ define "main" }}
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>{{ .Site.Title }}</h1>
+      <p>{{ .Site.Params.description }}</p>
+      <a href="/bags/" class="hero-button">View Collection</a>
+    </div>
+  </section>
+
+  <!-- Featured Work Section -->
+  {{ $pages := where .Site.RegularPages "Section" "bags" }}
+  {{ if gt (len $pages) 0 }}
+  <section class="work-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Featured Collections</h2>
+        <p class="section-subtitle">Browse our latest handmade crocheted bags</p>
+      </div>
+      <div class="work-grid">
+        {{ range first 6 $pages }}
+          <a href="{{ .Permalink }}" class="work-card">
+            <div class="work-card-image">
+              {{ $thumb := .Params.thumb }}
+              {{ if not $thumb }}
+                {{ $images := .Params.images }}
+                {{ if $images }}
+                  {{ $thumb := index $images 0 }}
+                {{ end }}
+              {{ end }}
+              {{ if $thumb }}
+                {{ $img := resources.Get (printf "images/%s" $thumb) }}
+                {{ if $img }}
+                  {{ $img = $img.Fill "800x600 Center" }}
+                  <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}">
+                {{ end }}
+              {{ else }}
+                <!-- Placeholder image when no images are available -->
+                <div style="background-color: #f0f0f0; display: flex; align-items: center; justify-content: center; color: #999999; font-size: 0.9rem;">
+                  No Image
+                </div>
+              {{ end }}
+            </div>
+            <div class="work-card-content">
+              <h3 class="work-card-title">{{ .Title }}</h3>
+              <p class="work-card-excerpt">{{ .Params.description | truncate 100 }}</p>
+            </div>
+          </a>
+        {{ end }}
+      </div>
+      {{ if gt (len $pages) 6 }}
+        <a href="/bags/" class="view-all">See All Bags →</a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,517 @@
+/* ==========================================================================
+   Fillmore Fluid Inspired Styling - Clean, Minimal, Portfolio-Focused
+   ========================================================================== */
+
+/* CSS Reset & Base Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  color: #2d2d2d;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #8B4513; /* Accent color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+/* ==========================================================================
+   Layout Containers & Utilities
+   ========================================================================== */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.section {
+  padding: 6rem 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  letter-spacing: -0.5px;
+}
+
+.section-subtitle {
+  font-size: 1.25rem;
+  color: #666666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ==========================================================================
+   Header & Navigation
+   ========================================================================== */
+
+.site-header {
+  position: relative;
+  z-index: 1000;
+  padding: 3rem 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  margin: 0;
+}
+
+.site-nav ul {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav a {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+.site-nav a:hover {
+  color: #8B4513;
+}
+
+/* ==========================================================================
+   Hero Section
+   ========================================================================== */
+
+.hero {
+  position: relative;
+  min-height: 80vh;
+  min-height: 600px;
+  background-color: #fafafa;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: #666666;
+  max-width: 700px;
+  margin: 0 auto 2.5rem auto;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: transparent;
+  border: 2px solid #8B4513;
+  color: #8B4513;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #8B4513;
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   Portfolio Grid (Fillmore Style)
+   ========================================================================== */
+
+.work-section {
+  padding: 6rem 0;
+  background-color: #fafafa;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2.5rem;
+}
+
+.work-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.work-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.work-card-image {
+  position: relative;
+  height: 0;
+  padding-bottom: 75%; /* 4:3 aspect ratio */
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+.work-card-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.work-card:hover .work-card-image img {
+  transform: scale(1.05);
+}
+
+.work-card-content {
+  padding: 2rem;
+}
+
+.work-card-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.work-card-excerpt {
+  font-size: 1rem;
+  color: #666666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* View All Button */
+.view-all {
+  display: block;
+  width: fit-content;
+  margin: 3rem auto 0 auto;
+  padding: 0.75rem 2rem;
+  border: 2px solid #8B4513;
+  color: #8B4513;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+  border-radius: 0;
+  transition: all 0.3s ease;
+}
+
+.view-all:hover {
+  background-color: #8B4513;
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   Detail Page Styles
+   ========================================================================== */
+
+.detail-section {
+  padding: 6rem 0;
+}
+
+.bag-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.detail-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.detail-title {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  letter-spacing: -0.5px;
+}
+
+.detail-subtitle {
+  font-size: 1.25rem;
+  color: #666666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.detail-content {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #333333;
+}
+
+.detail-content p {
+  margin-bottom: 2rem;
+}
+
+.detail-content h2,
+.detail-content h3 {
+  font-weight: 400;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.detail-content img {
+  border-radius: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 2.5rem 0;
+}
+
+.detail-tags {
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
+.tag {
+  display: inline-block;
+  background-color: rgba(139, 69, 19, 0.08);
+  color: #8B4513;
+  padding: 0.3rem 0.8rem;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  margin: 0.25rem;
+  border: 1px solid rgba(139, 69, 19, 0.2);
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.site-footer {
+  background-color: #fafafa;
+  padding: 4rem 0;
+  border-top: 1px solid #eeeeee;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 0.5rem 0;
+  color: #666666;
+  font-size: 0.9rem;
+}
+
+.footer-text {
+  font-style: italic;
+  color: #888888;
+}
+
+/* ==========================================================================
+   Responsive Breakpoints
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero p {
+    font-size: 1.25rem;
+  }
+
+  .section-title {
+    font-size: 2.25rem;
+  }
+
+  .work-grid {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    padding: 2rem 0;
+  }
+
+  .site-header .container {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .site-nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero {
+    min-height: 60vh;
+    min-height: 400px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.125rem;
+  }
+
+  .section {
+    padding: 4rem 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .work-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .work-card-content {
+    padding: 1.5rem;
+  }
+
+  .work-card-title {
+    font-size: 1.25rem;
+  }
+
+  .bag-detail {
+    padding: 0 1.5rem;
+  }
+
+  .detail-title {
+    font-size: 2.5rem;
+  }
+
+  .detail-content {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .work-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .view-all {
+    margin: 2rem auto 0 auto;
+  }
+
+  .detail-title {
+    font-size: 2rem;
+  }
+}
