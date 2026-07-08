@@ -8,6 +8,10 @@
         <p class="lead">{{ . }}</p>
       {{ end }}
 
+      {{ with .Content }}
+        <div class="section-content">{{ . }}</div>
+      {{ end }}
+
       <div class="posts-list">
         {{ if .Paginator }}
           {{ range .Paginator.Pages }}
