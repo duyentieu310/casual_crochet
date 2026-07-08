@@ -2,7 +2,7 @@
 title: "Ocean Wave Pouch"
 date: 2026-07-07
 description: "A little crochet pouch inspired by quiet days by the sea and the rhythm of ocean waves"
-thumb: "images/20260707_162458.jpg"
+thumb: "images/20260708_200242.jpg"
 tags: ["pouch", "crochet", "wave stitch", "cotton"]
 categories: ["Bags"]
 ---
