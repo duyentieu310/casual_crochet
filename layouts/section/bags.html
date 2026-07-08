@@ -9,15 +9,15 @@
         {{ range .Pages }}
           <a href="{{ .Permalink }}" class="work-card">
             <div class="work-card-image">
-              {{ $thumb := .Params.thumb }}
-              {{ if not $thumb }}
+              {{ $thumbName := .Params.thumb }}
+              {{ if not $thumbName }}
                 {{ $images := .Params.images }}
                 {{ if $images }}
-                  {{ $thumb := index $images 0 }}
+                  {{ $thumbName = index $images 0 }}
                 {{ end }}
               {{ end }}
-              {{ if $thumb }}
-                {{ $img := resources.Get (printf "images/%s" $thumb) }}
+              {{ if $thumbName }}
+                {{ $img := .Resources.GetMatch $thumbName }}
                 {{ if $img }}
                   {{ $img = $img.Fill "800x600 Center" }}
                   <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}">
