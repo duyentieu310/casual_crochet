@@ -1,7 +1,6 @@
 baseURL = 'https://casualcrochet.com/'
 languageCode = 'en-us'
 title = 'My Crocheted Bags'
-theme = ''
 
 [params]
   description = "Handmade crocheted bags - minimal, tactile, and made for everyday moments"
