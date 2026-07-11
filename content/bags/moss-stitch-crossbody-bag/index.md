@@ -2,7 +2,7 @@
 title: "Crossbody Bag with the Moss Stitch"
 date: 2026-07-10
 description: "A simple crossbody bag inspired by a color combination I couldn't resist."
-thumb: "images/20260709_123856.jpg"
+thumb: "images/14811.jpg"
 tags: ["bag", "crossbody", "moss stitch", "cotton"]
 categories: ["Bags"]
 ---
@@ -25,8 +25,8 @@ The bright yellow adds just enough contrast without taking over, while the soft 
 - Bag size: approximately 21 × 15 cm
 - Crossbody strap
 
-![Blue & Yellow Crossbody Bag](images/20260709_123856.jpg)
-![Blue & Yellow Crossbody Bag](images/20260709_124047.jpg)
+![Blue & Yellow Crossbody Bag](images/14811.jpg)
+![Blue & Yellow Crossbody Bag](images/14812.jpg)
 *Proof that sometimes a nice color palette is all the inspiration you need.*
-![Blue & Yellow Crossbody Bag Detail](images/20260709_124148.jpg)
+![Blue & Yellow Crossbody Bag Detail](images/14817.jpg)
 *Close-up of the texture and color changes.*
