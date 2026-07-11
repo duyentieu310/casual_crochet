@@ -28,6 +28,6 @@ Made with 100% cotton yarn, this little pouch is the perfect size for carrying s
 
 *The finished pouch, photographed outside on a sunny day.*
 
-![Ocean Wave Pouch Detail](images/20260708_200324.jpg)
+![Ocean Wave Pouch Detail](images/20260708_204406.jpg)
 
 *Close-up of the wave texture and color changes.*
