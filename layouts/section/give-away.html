@@ -5,6 +5,9 @@
         <h1 class="section-title">{{ .Title }}</h1>
         <p class="section-subtitle">{{ .Description }}</p>
       </div>
+      {{ with .Content }}
+        <div class="section-content give-away-intro">{{ . }}</div>
+      {{ end }}
       <div class="work-grid">
         {{ range .Pages }}
           <a href="{{ .Permalink }}" class="work-card">
