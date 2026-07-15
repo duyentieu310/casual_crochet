@@ -5,8 +5,6 @@ date: 2026-07-15
 type: "section"
 ---
 
-## Give Away
-
 Most of the time, I crochet just to see how a stitch looks, feels, or works up into a pouch or a bag. Some experiments become my favorites, while others simply aren't my style.
 
 Instead of letting those pieces sit in a drawer, I'd rather pass them on to someone who might enjoy them more than I do.
