@@ -18,10 +18,15 @@ title = 'Casual Crochet'
     url = "/bags/"
     weight = 1
   [[menu.main]]
+    identifier = "give-away"
+    name = "Give Away"
+    url = "/give-away/"
+    weight = 2
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 2
+    weight = 3
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

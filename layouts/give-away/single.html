@@ -1,0 +1,73 @@
+{{ define "main" }}
+  <section class="detail-section">
+    <div class="container">
+      <article class="bag-detail">
+        <header class="detail-header">
+          <h1 class="detail-title">{{ .Title }}</h1>
+          {{ if .Params.description }}
+            <p class="detail-subtitle">{{ .Params.description }}</p>
+          {{ end }}
+        </header>
+
+        {{ $images := .Resources.ByType "image" }}
+        {{ if ge (len $images) 1 }}
+          <div class="carousel" id="carousel-{{ .File.UniqueID }}">
+            <div class="carousel-track">
+              {{ range $i, $img := $images }}
+                <div class="carousel-slide{{ if eq $i 0 }} active{{ end }}">
+                  <img src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}">
+                </div>
+              {{ end }}
+            </div>
+            {{ if gt (len $images) 1 }}
+              <button class="carousel-btn carousel-prev" onclick="moveCarousel('{{ .File.UniqueID }}', -1)" aria-label="Previous">←</button>
+              <button class="carousel-btn carousel-next" onclick="moveCarousel('{{ .File.UniqueID }}', 1)" aria-label="Next">→</button>
+              <div class="carousel-dots">
+                {{ range $i, $img := $images }}
+                  <span class="carousel-dot{{ if eq $i 0 }} active{{ end }}" onclick="goToSlide('{{ $.File.UniqueID }}', {{ $i }})"></span>
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+        {{ end }}
+
+        <div class="detail-content">
+          {{ .Content }}
+
+          {{ if .Params.tags }}
+            <div class="detail-tags">
+              {{ range .Params.tags }}
+                <span class="tag">#{{ . }}</span>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </article>
+    </div>
+  </section>
+{{ end }}
+
+{{ define "body_end" }}
+<script>
+function moveCarousel(id, dir) {
+  var track = document.querySelector('#carousel-' + id + ' .carousel-track');
+  var slideW = track.querySelector('.carousel-slide').offsetWidth;
+  track.scrollBy({ left: slideW * dir, behavior: 'smooth' });
+}
+function goToSlide(id, idx) {
+  var track = document.querySelector('#carousel-' + id + ' .carousel-track');
+  var slideW = track.querySelector('.carousel-slide').offsetWidth;
+  track.scrollTo({ left: slideW * idx, behavior: 'smooth' });
+}
+document.querySelectorAll('.carousel-track').forEach(function(track) {
+  track.addEventListener('scroll', function() {
+    var container = this.closest('.carousel');
+    var slideW = this.querySelector('.carousel-slide').offsetWidth;
+    var idx = Math.round(this.scrollLeft / slideW);
+    container.querySelectorAll('.carousel-dot').forEach(function(d, i) {
+      d.classList.toggle('active', i === idx);
+    });
+  });
+});
+</script>
+{{ end }}
