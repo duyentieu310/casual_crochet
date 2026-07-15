@@ -2,7 +2,7 @@
 title: "Striped Lemon Peel Bag"
 date: 2026-07-15
 description: "A striped crochet bag looking for a new home."
-thumb: ""
+thumb: "20260715_171722.jpg"
 tags: ["give away", "bag", "lemon peel stitch", "cotton"]
 categories: ["Give Away"]
 ---

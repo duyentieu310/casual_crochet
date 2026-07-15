@@ -19,7 +19,7 @@ title = 'Casual Crochet'
     weight = 1
   [[menu.main]]
     identifier = "give-away"
-    name = "Give Away"
+    name = "🔥GIVEAWAY"
     url = "/give-away/"
     weight = 2
   [[menu.main]]
