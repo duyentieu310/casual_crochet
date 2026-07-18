@@ -3,14 +3,11 @@ languageCode = 'en-us'
 title = 'Casual Crochet'
 
 [params]
-  description = "A casual crochet journal filled with handmade bags, new stitches, and inspiration gathered from nature and everyday life."
+  description = "Handmade crochet bag patterns, stitch ideas, and inspiration. A casual crochet journal filled with unique bag designs, new stitches, and creative projects for crocheters of all levels."
   author = "Duyen Tieu"
-  # Fillmore-style accent color (customize to match your yarn palette)
-  accent_color = "#8B4513"  # Saddle Brown - change as desired
-  # Enable smooth transitions
+  accent_color = "#8B4513"
   enable_animations = true
 
-# Menu configuration (Fillmore-style minimal nav)
 [menu]
   [[menu.main]]
     identifier = "work"
@@ -30,3 +27,20 @@ title = 'Casual Crochet'
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "feed"
+
+[pagination]
+  pagerSize = 12
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[frontmatter]
+  # Use date from frontmatter preferentially
+  date = [":filename", ":default"]

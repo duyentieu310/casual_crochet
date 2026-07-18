@@ -30,7 +30,7 @@
               {{ end }}
               {{ if $thumbName }}
                 {{ with .Resources.GetMatch $thumbName }}
-                  <img src="{{ .RelPermalink }}" alt="{{ .Title }}" style="width:100%;height:100%;object-fit:cover">
+                  <img src="{{ .RelPermalink }}" alt="{{ $.Title }} - {{ $.Params.description | plainify }}" style="width:100%;height:100%;object-fit:cover">
                 {{ end }}
               {{ else }}
                 <!-- Placeholder image when no images are available -->
