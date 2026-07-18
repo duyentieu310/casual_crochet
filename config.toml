@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Casual Crochet'
 
 [params]
-  description = "Handmade crochet bag patterns, stitch ideas, and inspiration. A casual crochet journal filled with unique bag designs, new stitches, and creative projects for crocheters of all levels."
+  description = "Handmade crochet bag patterns, stitch ideas, and inspiration for crocheters of all levels"
   author = "Duyen Tieu"
   accent_color = "#8B4513"
   enable_animations = true
