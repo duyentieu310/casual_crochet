@@ -2,7 +2,7 @@
 title: "Lacy Bobble Stitch Crochet Tote Bag"
 date: 2026-07-11
 description: "A lightweight crochet tote bag inspired by the classic bobble bag, reimagined with an airy lacy bobble stitch."
-thumb: "images/20260711_....jpg"
+thumb: "images/lacy-bobble-stitch-tote-bag.jpg"
 tags: ["crochet bag", "tote bag", "lacy bobble stitch", "cotton", "summer"]
 categories: ["Bags"]
 ---
