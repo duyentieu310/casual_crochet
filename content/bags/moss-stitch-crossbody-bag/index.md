@@ -1,21 +1,21 @@
 ---
-title: "Crossbody Bag with the Moss Stitch"
+title: "Moss Stitch Crochet Crossbody Bag"
 date: 2026-07-10
-description: "A simple crossbody bag inspired by a color combination I couldn't resist."
-thumb: "images/20260709_123856.jpg"
-tags: ["bag", "crossbody", "moss stitch", "cotton"]
+description: "A striped crochet crossbody bag made with the Moss Stitch and soft cotton yarn."
+thumb: "images/moss-stitch-crossbody-bag-idea.jpg"
+tags: ["crochet bag", "crossbody bag", "moss stitch", "cotton"]
 categories: ["Bags"]
 ---
 
-## Blue & Yellow Crossbody Bag
+## Moss Stitch Crochet Crossbody Bag
 
-Not every project starts with a grand idea.
+Not every crochet bag begins with a carefully planned idea.
 
-For this one, I simply came across a post online that paired blue, cream, and yellow together. It wasn't a crochet pattern or even a bag—just a color combination that immediately caught my eye. I thought, "Why not give it a try?"
+This one started because I came across a colour palette online that paired blue, cream, and yellow together. I liked it so much that I decided to turn those colours into a crochet bag.
 
-I kept the stitch simple and went with moss stitch, one of my favorites when I want something relaxing to crochet. It's repetitive in the best way, making it easy to enjoy the process while watching the colors slowly build into stripes.
+To keep the focus on the stripes, I chose the <a href="https://nordichook.com/moss-stitch/" target="_blank">Moss Stitch</a>. It's one of those stitches I always enjoy working because it creates a lovely texture without distracting from the colours.
 
-The bright yellow adds just enough contrast without taking over, while the soft blue and cream keep everything balanced. In the end, it became a cheerful little crossbody bag that reminds me that inspiration doesn't always have to be complicated. Sometimes, all it takes is three colors that happen to look good together.
+The finished bag turned out cheerful and practical, reminding me that inspiration can come from the simplest places—even just three colours that happen to work beautifully together.
 
 ## Details
 
@@ -25,8 +25,8 @@ The bright yellow adds just enough contrast without taking over, while the soft 
 - Bag size: approximately 21 × 15 cm
 - Crossbody strap
 
-![Blue & Yellow Crossbody Bag](images/20260709_123856.jpg)
-![Blue & Yellow Crossbody Bag](images/20260709_124047.jpg)
+![Moss Stitch Crochet Crossbody Bag](images/moss-stitch-crossbody-bag.jpg)
+![Moss Stitch Crochet Crossbody Bag](images/moss-stitch-crossbody-bag-idea.jpg)
 *Proof that sometimes a nice color palette is all the inspiration you need.*
-![Blue & Yellow Crossbody Bag Detail](images/20260709_124148.jpg)
-*Close-up of the texture and color changes.*
+![Moss Stitch Crochet Crossbody Bag](images/moss-stitch.jpg)
+*Close-up of the stitch and color changes.*

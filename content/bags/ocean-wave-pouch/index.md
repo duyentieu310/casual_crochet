@@ -1,33 +1,33 @@
 ---
-title: "Ocean Wave Pouch"
+title: "Ocean Wave Crochet Pouch"
 date: 2026-07-07
-description: "A little crochet pouch inspired by quiet days by the sea and the rhythm of ocean waves"
-thumb: "images/20260708_200242.jpg"
-tags: ["pouch", "crochet", "wave stitch", "cotton"]
+description: "A crochet pouch inspired by gentle ocean waves, featuring textured wave stitches and soft cotton yarn."
+thumb: "images/ocean-wave-crochet-pouch.jpg"
+tags: ["crochet pouch", "wave stitch", "cotton", "bag ideas"]
 categories: ["Bags"]
 ---
 
-## Ocean Wave Pouch
+## Ocean Wave Crochet Pouch
 
-I think this might be one of my favorite pouches I've made so far.
+If you're looking for crochet pouch ideas inspired by nature, this little project might be one of my favorites.
 
-I wanted to make something that felt calm and a little bit like the ocean — soft colors, gentle waves, and a texture that you can't help but touch. I chose these shades of blue, lavender, and white because they reminded me of quiet mornings near the water, when everything feels a little slower.
+I wanted to create something that felt calm and peaceful, so I chose soft shades of blue, lavender, and white to remind me of the ocean. As each row came together, the wave stitch slowly revealed itself, making the pouch feel almost like ripples across the water.
 
-The wave stitch was a bit of an experiment. I wasn't sure how the colors would come together at first, but row by row, the little waves started to appear. It was one of those projects where you don't really know the final look until the very last stitch.
+The wave stitch was new to me, and I enjoyed watching the texture develop one row at a time. It's always fun trying different stitches because they completely change the personality of a crochet bag or pouch.
 
-Made with 100% cotton yarn, this little pouch is the perfect size for carrying small everyday things. But mostly, I just love how it turned out — a tiny piece of handmade calm.
+Made with 100% cotton yarn, this crochet pouch is the perfect size for everyday essentials. More than anything, it reminds me that sometimes the simplest color combinations create the most satisfying projects.
 
 ## Details
 
 - 100% cotton yarn
-- 3mm crochet hook
-- Wave stitch pattern
+- 3 mm crochet hook
+- Wave Stitch
 - Size: approximately 16 × 12 cm
 
-![Ocean Wave Pouch Main](images/20260708_200242.jpg)
+![Ocean Wave Crochet Pouch](images/ocean-wave-crochet-pouch.jpg)
 
-*The finished pouch, photographed outside on a sunny day.*
+*Inspired by calm seas and soft summer colours.*
 
-![Ocean Wave Pouch Detail](images/20260708_204406.jpg)
+![Ocean Wave Pouch Detail](images/ocean-wave-stitch.jpg)
 
 *Close-up of the wave texture and color changes.*

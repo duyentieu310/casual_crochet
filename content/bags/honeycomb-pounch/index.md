@@ -1,21 +1,21 @@
 ---
-title: "Honeycomb Pouch"
+title: "Honeycomb Crochet Pouch"
 date: 2026-07-08
-description: "A cozy little pouch inspired by the warm, repeating pattern of honeycombs."
-thumb: "images/20260708_204359.jpg"
-tags: ["pouch", "honeycomb", "millstone stitch", "cotton"]
+description: "A textured crochet pouch inspired by honeycombs and made with the Millstone Stitch."
+thumb: "images/honeycomb-crochet-pouch.jpg"
+tags: ["crochet pouch", "millstone stitch", "cotton", "bag ideas"]
 categories: ["Bags"]
 ---
 
-## Honeycomb Pouch
+## Honeycomb Crochet Pouch
 
-Sometimes inspiration comes from the smallest things.
+Nature has a way of creating beautiful patterns, and honeycombs have always been one of my favorites.
 
-I've always loved the neat, repeating pattern of honeycombs. There's something satisfying about how every little piece fits together, creating something both simple and beautiful. I wanted to capture that feeling in crochet, so I reached for the [Millstone Stitch](https://nordichook.com/the-millstone-stitch/). The layered texture reminded me of stacked honeycomb cells, especially with these warm caramel and cream colors.
+When I discovered the Millstone Stitch, its layered texture immediately reminded me of stacked honeycomb cells. Warm shades of cream and caramel completed the look and made this crochet pouch feel cozy and earthy.
 
-This project came together surprisingly quickly. The stitch has enough texture to keep every row interesting, but it's also relaxing once you get into the rhythm. It's one of those patterns that makes you want to crochet "just one more row."
+This project was one of those relaxing makes where every row looked a little different as the texture developed. Trying new crochet stitches is one of my favorite parts of this hobby, even when I don't know exactly how the finished piece will look.
 
-As usual, I used 100% cotton yarn because I love how well it holds its shape. The finished pouch is just the right size for little everyday essentials, and I think the textured fabric gives it a cozy, handmade feel.
+Made with 100% cotton yarn, this crochet pouch is sturdy enough for everyday use while showing off the beautiful texture of the stitch.
 
 ## Details
 
@@ -24,10 +24,10 @@ As usual, I used 100% cotton yarn because I love how well it holds its shape. Th
 - [Millstone Stitch](https://nordichook.com/the-millstone-stitch/)
 - Finished size: approximately 17 × 14 cm
 
-![Honeycomb Pouch](images/20260708_204359.jpg)
+![Honeycomb Pouch](images/honeycomb-crochet-pouch.jpg)
 
-*Warm colors and textured stitches inspired by honeycombs.*
+*Inspired by the repeating beauty of honeycombs.*
 
-![Honeycomb Pouch Detail](images/20260708_200324.jpg)
+![Honeycomb Pouch Detail](images/millstone-stitch.jpg)
 
-*Close-up of the texture and color changes.*
+*Close-up of the millstone stitch and color changes.*
