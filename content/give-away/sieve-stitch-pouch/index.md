@@ -2,7 +2,7 @@
 title: "Blue & Green Sieve Stitch Pouch"
 date: 2026-07-16
 description: "A textured crochet pouch created to experiment with an unexpected blue and green colour combination."
-thumb: "sieve_stitch_pouch_4.jpg"
+thumb: "images/sieve_stitch_pouch_4.jpg"
 tags: ["give away", "crochet pouch", "sieve stitch", "cotton"]
 categories: ["Give Away"]
 ---
