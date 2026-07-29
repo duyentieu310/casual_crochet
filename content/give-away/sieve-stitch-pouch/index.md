@@ -2,7 +2,7 @@
 title: "Blue & Green Sieve Stitch Pouch"
 date: 2026-07-16
 description: "A textured crochet pouch created to experiment with an unexpected blue and green colour combination."
-thumb: ""
+thumb: "sieve_stitch_pouch_4.jpg"
 tags: ["give away", "crochet pouch", "sieve stitch", "cotton"]
 categories: ["Give Away"]
 ---
@@ -34,4 +34,4 @@ How to get it: https://www.vinted.de/items/9523489527-crocheted-bagbook-cover
 
 If you decide to give this piece a new home, I'd love to see how it turns out.
 
-Feel free to send me photos of the finished project by <a href="mailto:your@email.com">email</a>. Whether you turn it into a pouch, a book cover, or something completely different, I'd be delighted to see its second life. 😊
+Feel free to send me photos of the finished project by <a href="mailto:tieuduyen310@gmail.com">email</a>. Whether you turn it into a pouch, a book cover, or something completely different, I'd be delighted to see its second life. 😊
