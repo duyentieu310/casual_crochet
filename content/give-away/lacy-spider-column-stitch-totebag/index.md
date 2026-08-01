@@ -5,6 +5,7 @@ description: "A lightweight summer tote bag looking for a new home."
 thumb: "images/lacy_spider_column_stitch_totebag.jpg"
 tags: ["give away", "crochet bag", "tote bag", "lacy spider column stitch", "cotton"]
 categories: ["Give Away"]
+---
 
 ## Lacy Spider Column Crochet Tote Bag
 
