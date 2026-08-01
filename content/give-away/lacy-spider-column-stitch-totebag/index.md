@@ -19,6 +19,8 @@ This tote turned out much larger than most of my projects, making it perfect for
 
 As with everything in this section, I'd rather this bag be used than left sitting in my cupboard. You'll find it on Vinted, where I've listed it for **€6**—just enough to cover the cost of the yarn used for this larger project.
 
+How to get it: https://www.vinted.de/items/9546003749-crocheted-tote-bag
+
 ## Details
 
 - 100% mint cotton yarn held together with 80% cotton dark grey yarn
