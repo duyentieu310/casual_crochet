@@ -4,10 +4,18 @@ date: 2026-05-19
 type: "page"
 ---
 
-Crochet has never been a side hustle for me. It's simply my favorite way to slow down. You'll usually find me stitching in the park, on a train, during a quiet lunch break, or after a long day of work. My projects travel with me wherever I go.
+About Me
 
-I love exploring new stitches and seeing what they can become. Most of the time, I design my own bags, pouches, and purses, treating each project as a little experiment. Inspiration shows up in unexpected places: the texture of tree bark, the colors of a sunset, a flower on the sidewalk, or patterns I notice while walking through the city. Nature is my biggest source of ideas.
+I work as a research assistant and live in Germany, so life can be quite busy and sometimes very screen-heavy. Crochet is a nice excuse to step away from all of that for a while.
 
-This blog is a collection of those moments. It's where I share my projects, new stitches I've learned, design ideas, and the simple joy of making something with my hands.
+I usually have a project with me somewhere. I might be crocheting in a park, on a train, during a quiet lunch break, or sitting at home after a long day at work. My crochet tends to travel wherever I do.
 
-Thanks for stopping by. I hope my creations inspire you to pick up a hook, try something new, or simply enjoy the beauty of making.
+I'm especially fond of trying new stitches. I often see a stitch I haven't used before and immediately start wondering what it might look like as a bag or pouch. Not every experiment turns out the way I imagined, and that's part of the fun. Sometimes I love the result; sometimes I don't. Either way, I've usually learned something.
+
+Most of the bags and pouches I make are my own little experiments rather than carefully planned designs. Inspiration can come from almost anywhere, like a color combination I notice online, flowers on the sidewalk, an interesting pattern on a building, or simply the colors of the sky on my way home. Nature is probably my biggest source of inspiration.
+
+This blog is where I keep track of those experiments. Some projects work, some don't quite work, and some end up being pieces that I'd rather pass on to someone else. I want to share all of it—the stitches I'm learning, the ideas I'm playing with, and the little stories behind the things I make.
+
+If you crochet too, I hope you'll find something here that makes you want to pick up your hook and try it yourself. And if you don't crochet, that's okay too. Maybe you'll just enjoy seeing what can come from a ball of yarn and a little bit of time.
+
+Thanks for stopping by. 🧶
